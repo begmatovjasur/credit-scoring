@@ -1,22 +1,24 @@
-# Bank Kredit Skoring Tizimi
+# Bank Credit Scoring System 🏦
 
-Ushbu loyiha Random Forest algoritmi yordamida mijozlarning kredit tarixini tahlil qiluvchi va kredit ajratish xavfini (Probability of Default) baholovchi web-ilova.
+A machine learning-powered web application built with Streamlit that analyzes customer credit histories and predicts the Probability of Default using the Random Forest algorithm.
 
-## Asosiy imkoniyatlar
-- Mijozning yoshi, daromadi va qarz yukini tahlil qilish.
-- 90+ kunlik kechikish tarixi mavjud bo'lgan mijozlarni avtomatik rad etish (Hard Rules).
-- Random Forest modeli yordamida xavf darajasini ehtimollik bilan aniqlash.
+## 🌟 Key Features
+- **Customer Profiling:** Analyzes key metrics such as age, monthly income, and debt ratio.
+- **Hard Rules Implementation:** Automatically flags and rejects applicants with a history of 90+ days of delinquency.
+- **Risk Prediction:** Utilizes a Random Forest classifier to determine the exact probability of credit risk.
 
-## 📊 Model samaradorligi
-Ushbu model Kaggle'ning "Give Me Some Credit" musobaqasida sinovdan o'tkazilgan va quyidagi natijalarni qayd etgan:
+## 📊 Model Performance
+This model was trained and tested on the Kaggle "Give Me Some Credit" dataset with the following results:
+- **Metric:** AUC-ROC
+- **Score:** 0.83
+- **Status:** Successfully benchmarked on the Kaggle leaderboard.
 
-- **Metrika:** AUC-ROC
-- **Natija:** 0.83
-- **Holat:** Leaderboard'da muvaffaqiyatli reyting qayd etildi.
+## 💻 User Interface
+![Bank Credit Scoring Platform UI](![alt text](image-1.png))
+![alt text](image-2.png)
 
-![alt text](image.png)
+## ⚙️ Installation & Usage
 
-## O'rnatish
-1. Repozitoriyani yuklab oling: `git clone <link>`
-2. Kutubxonalarni o'rnating: `pip install -r requirements.txt`
-3. Dasturni ishga tushiring: `streamlit run app.py`
+1. Clone the repository:
+```bash
+   git clone <link>
