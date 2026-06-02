@@ -16,9 +16,3 @@ This model was trained and tested on the Kaggle "Give Me Some Credit" dataset wi
 ## 💻 User Interface
 ![Bank Credit Scoring Platform UI]![alt text](image-1.png)
 ![alt text](image-2.png)
-
-## ⚙️ Installation & Usage
-
-1. Clone the repository:
-```bash
-   git clone <link>
