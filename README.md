@@ -14,7 +14,7 @@ This model was trained and tested on the Kaggle "Give Me Some Credit" dataset wi
 - **Status:** Successfully benchmarked on the Kaggle leaderboard.
 
 ## 💻 User Interface
-![Bank Credit Scoring Platform UI](![alt text](image-1.png))
+![Bank Credit Scoring Platform UI]![alt text](image-1.png)
 ![alt text](image-2.png)
 
 ## ⚙️ Installation & Usage
