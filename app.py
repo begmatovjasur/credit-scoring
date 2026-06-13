@@ -81,15 +81,15 @@ if submit_button:
 
         # 4. Natijani chiroyli qilib ekranga chiqarish
         st.divider()
-        st.subheader("📊 Tahlil Natijasi:")
+        st.subheader(" Tahlil Natijasi:")
 
         # Agar mijozning xavflilik darajasi 50% dan yuqori bo'lsa:
         if probability > 0.50:
-            st.error(f"❌ DIQQAT: XAVFLI MIJOZ! \n\nKreditni qaytarmaslik ehtimoli: **{probability * 100:.1f}%**")
-            st.warning("💡 Bank uchun tavsiya: Kredit ajratish rad etilsin yoki juda kuchli kafillik talab qilinsin.")
+            st.error(f"DIQQAT: XAVFLI MIJOZ! \n\nKreditni qaytarmaslik ehtimoli: **{probability * 100:.1f}%**")
+            st.warning("Bank uchun tavsiya: Kredit ajratish rad etilsin yoki juda kuchli kafillik talab qilinsin.")
         else:
-            st.success(f"✅ ISHONCHLI MIJOZ! \n\nKreditni qaytarmaslik xatar darajasi bor-yo'g'i: **{probability * 100:.1f}%**")
-            st.info("💡 Bank uchun tavsiya: Mijozga so'ralgan kredit miqdorini ajratish xavfsiz.")
+            st.success(f"ISHONCHLI MIJOZ! \n\nKreditni qaytarmaslik xatar darajasi bor-yo'g'i: **{probability * 100:.1f}%**")
+            st.info("Bank uchun tavsiya: Mijozga so'ralgan kredit miqdorini ajratish xavfsiz.")
             
     except Exception as e:
         st.error(f"Kechirasiz, hisoblashda xatolik yuz berdi. Xato kodi: {e}")
